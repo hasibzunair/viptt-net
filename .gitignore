@@ -1,5 +1,6 @@
 # Custom
 .DS_Store
+.py.swp
 .ipynb_checkpoints/
 
 dataset/

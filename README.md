@@ -2,13 +2,13 @@
 
 ### Todo
 
-- [ ] Win CLEF 
-- [ ] Do stuff  
-  - [ ] More stuff  
+- [ ] Kappa loss
+  - [ ] Weights for each class
 
 ### In Progress
 
-- [ ] ImageCLEF Data loader  
+- [ ] Pretrain on UCF dataset
 
 ### Done ✓
 - [x] Access to data
+- [x] ImageCLEF data loader

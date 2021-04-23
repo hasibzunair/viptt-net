@@ -20,10 +20,13 @@ def read_nifti_file(filepath):
     return scan
 
 
-def normalize(volume):
-    """Normalize the volume"""
-    min = -1000 # -512
-    max = 400 # 512
+def hu_window(volume):
+    """
+    Preprocess the volume for lungs
+    Copied from https://github.com/amorimdiogo/VNet/blob/master/preprocess.py
+    """
+    min = -1000
+    max = 400
     volume[volume < min] = min
     volume[volume > max] = max
     volume = (volume - min) / (max - min)
@@ -52,6 +55,9 @@ def resize_volume(img):
     img = ndimage.rotate(img, 90, reshape=False)
     # Resize across z-axis
     img = ndimage.zoom(img, (width_factor, height_factor, depth_factor), order=1)
+    # Normalize between 0 and 1
+    img[img < 0] = 0
+    img[img > 1] = 1
     return img
 
 
@@ -59,9 +65,9 @@ def process_scan(path):
     """Read and resize volume"""
     # Read scan
     volume = read_nifti_file(path)
-    # Normalize
-    volume = normalize(volume)
-    # Resize width, height and depth
+    # Preprocess
+    volume = hu_window(volume)
+    # Resize width, height and depth & normalize to [0,1]
     volume = resize_volume(volume)
     return volume
 ##############################################

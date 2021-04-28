@@ -37,9 +37,9 @@ def hu_window(volume):
 def resize_volume(img):
     """Resize across z-axis"""
     # Set the desired depth
-    desired_depth = 64
-    desired_width = 128
-    desired_height = 128
+    desired_depth = 70
+    desired_width = 224
+    desired_height = 224
     # Get current depth
     current_depth = img.shape[-1]
     current_width = img.shape[0]

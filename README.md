@@ -1,14 +1,15 @@
 # tbt-classification
 
 ### Todo
-
-- [ ] Win CLEF 
-- [ ] Do stuff  
-  - [ ] More stuff  
+- [ ] Multi view
+- [ ] Kappa loss  
+  - [ ] Weighted
+  - [ ] Unweighted
 
 ### In Progress
 
-- [ ] ImageCLEF Data loader  
+- [ ] Data augmentation
+- [ ] EfficientNet-LSTM pretraining 
 
 ### Done ✓
-- [x] Access to data
+- [x] Action recognition pretraining

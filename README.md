@@ -40,8 +40,8 @@ We provide pre-trained models:
 
 | Models | Weights|
 |:---:|:---:|
-| ViPTT-Net (PT+CW+AUG) | [ViPTT-Net-CLEF-TBT.h5](https://github.com/hasibzunair/adversarial-lesions/releases/latest/download/ViPTT-Net-CLEF-TBT.h5) |
-| ViPTT-Net UCF50 | [ViPTT-Net-UCF50.h5](https://github.com/hasibzunair/adversarial-lesions/releases/latest/download/ViPTT-Net-UCF50.h5) |
+| ViPTT-Net (PT+CW+AUG) | [ViPTT-Net-CLEF-TBT.h5](https://github.com/hasibzunair/ViPTT-Net/releases/latest/download/ViPTT-Net-CLEF-TBT.h5) |
+| ViPTT-Net UCF50 | [ViPTT-Net-UCF50.h5](https://github.com/hasibzunair/ViPTT-Net/releases/latest/download/ViPTT-Net-UCF50.h5) |
 
 ## Results
 

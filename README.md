@@ -44,9 +44,9 @@ See `notebooks/`.
 
 See `notebooks/`.
 
-## Pre-trained models
+## Pretrained models
 
-We provide pre-trained models:
+We provide pretrained models:
 
 | Models | Description | Weights|
 |:---:|:---:|:---:|

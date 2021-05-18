@@ -1,10 +1,11 @@
 # ViPTT-Net: Video pretraining of spatio-temporal models for tuberculosis type classification
 
-ViPTT-Net is a method that pretrains a hybrid CNN-RNN based model on human activity recognition task, and then fine-tunes the model for the task of tuberculosis type classification from chest CT scans. 
+ViPTT-Net is a method that pretrains a hybrid CNN-RNN based model on realistic videos for human activity recognition task. It is then fine-tuned on a dataset of chest CT scans for the task of tuberculosis type classification. 
 
-It achieved 2nd place in the ImageCLEF 2021 Tuberculosis - TBT classification task.
+ViPTT-Net achieved 2nd place in the ImageCLEF 2021 Tuberculosis - TBT classification task.
 
 ## Resources
+
 * Paper (arXiv)
 * [Leaderboard results](https://www.aicrowd.com/challenges/imageclef-2021-tuberculosis-tbt-classification/leaderboards)
 
@@ -47,13 +48,13 @@ See `notebooks/`.
 
 We provide pre-trained models:
 
-| Models | Weights|
-|:---:|:---:|
-| ViPTT-Net (PT+CW+AUG) | [ViPTT-Net-CLEF-TBT.h5](https://github.com/hasibzunair/ViPTT-Net/releases/latest/download/ViPTT-Net-CLEF-TBT.h5) |
-| ViPTT-Net UCF50 | [ViPTT-Net-UCF50.h5](https://github.com/hasibzunair/ViPTT-Net/releases/latest/download/ViPTT-Net-UCF50.h5) |
+| Models | Description | Weights|
+|:---:|:---:|:---:|
+| ViPTT-Net | Fine-tunes `ViPTT-Net UCF50` on ImageCLEF 2021 Tuberculosis - TBT dataset.| [ViPTT-Net-CLEF-TBT.h5](https://github.com/hasibzunair/ViPTT-Net/releases/latest/download/ViPTT-Net-CLEF-TBT.h5) |
+| ViPTT-Net UCF50 | Trains ViPTT-Net on a subset of the UCF50 dataset | [ViPTT-Net-UCF50.h5](https://github.com/hasibzunair/ViPTT-Net/releases/latest/download/ViPTT-Net-UCF50.h5) |
 
 ## Results
-Table will be added. See paper for details.
+Table will be added. See paper in the meantime!
 
 ## License 
 

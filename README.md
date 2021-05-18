@@ -33,9 +33,15 @@ This code requires:
 
 ## Preparing training and test datasets
 
+See `notebooks/`.
+
 ## Training scripts
 
+See `notebooks/`.
+
 ## Evaluation scripts
+
+See `notebooks/`.
 
 ## Pre-trained models
 
@@ -47,6 +53,7 @@ We provide pre-trained models:
 | ViPTT-Net UCF50 | [ViPTT-Net-UCF50.h5](https://github.com/hasibzunair/ViPTT-Net/releases/latest/download/ViPTT-Net-UCF50.h5) |
 
 ## Results
+Table will be added. See paper for details.
 
 ## License 
 

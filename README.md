@@ -26,6 +26,8 @@ This code requires:
 * TensorFlow 2.4.1
 * Nibabel
 
+This research code will not be maintained, unless we decide to do a follow up work. If you have trouble running this code ONLY with the requirements mentioned above, file and issue and we'll look at it tomorrow.  
+
 ## Preparing training and test datasets
 
 See `notebooks/`.

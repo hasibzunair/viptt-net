@@ -7,7 +7,7 @@ ViPTT-Net achieved 2nd place (Kappa score of 0.2)  in the ImageCLEF 2021 Tubercu
 <p align="center">
   <a href="#"><img src="./media/vipttnet.png"></a> <br />
   <em> 
-    Figure 1. Schematic layout of the hybrid CNN-RNN model ViPTT-Net. Given a 3D CT scan of arbitrary size, uniform resizing is performed across all dimensions using SIZ. Features are extracted from all the axial slices of the processed CT scan [1] to output a sequence of image features using a VGG-16 model. These sequence of image features are input to an LSTM layer followed by dense layers of 1024 neurons and finally 5 with softmax activation for the multi-class classification problem.
+    Figure 1. Schematic layout of ViPTT-Net. Given a 3D CT scan of arbitrary size, uniform resizing is performed across all dimensions using SIZ. Features are extracted from all the axial slices of the processed CT scan [1] to output a sequence of image features using a VGG-16 model. These sequence of image features are input to an LSTM layer followed by dense layers with a final 5-way softmax for the multi-class classification problem.
     </em>
 </p>
 

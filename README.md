@@ -11,8 +11,6 @@ ViPTT-Net achieved 2nd place (Kappa score of 0.2)  in the ImageCLEF 2021 Tubercu
     </em>
 </p>
 
-[1] As the VGG-16 feature extractor accepts inputs of 3-channels, we map the 1-channel axial slices of the CT scan slices to 3-channel using a convolutional layer with 3 filters and kernel size of 1 × 1 × 1 before input to VGG-16.
-
 ## Resources
 
 * Paper (arXiv)

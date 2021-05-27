@@ -39,19 +39,15 @@ This code requires:
 This research code will not be maintained, unless we decide to do a follow up work. If you have trouble running this code ONLY with the requirements mentioned above, file and issue and we'll look at it tomorrow.  
 
 ## Preparing training and test datasets
-
 See `notebooks/`.
 
 ## Training scripts
-
 See `notebooks/`.
 
 ## Evaluation scripts
-
 See `notebooks/`.
 
 ## Pretrained models
-
 We provide pretrained models:
 
 | Models | Description | Weights|
@@ -60,9 +56,8 @@ We provide pretrained models:
 | ViPTT-Net UCF50 | Trains ViPTT-Net on a subset of the UCF50 dataset | [ViPTT-Net-UCF50.h5](https://github.com/hasibzunair/ViPTT-Net/releases/latest/download/ViPTT-Net-UCF50.h5) |
 
 ## Results
-Table will be added. See paper in the meantime!
+See paper for details!
 
 ## License 
-
 MIT
 

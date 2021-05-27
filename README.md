@@ -5,13 +5,13 @@ ViPTT-Net is a method that pretrains a hybrid CNN-RNN based model on realistic v
 ViPTT-Net achieved 2nd place (Kappa score of 0.2)  in the ImageCLEF 2021 Tuberculosis - TBT Classification Challenge.
 
 <p align="center">
-  <a href="#"><img src="./media/xray.png" height=600/></a> <br />
+  <a href="#"><img src="./media/vipttnet.png" height=600/></a> <br />
   <em> 
-    Figure 1. Schematic layout of the hybrid CNN-RNN model ViPTT-Net. Given a 3D CT scan of arbitrary size, uniform resizing is performed across all dimensions using SIZ. Features are extracted from all the axial slices of the processed CT scan ** to output a sequence of image features using a VGG-16 model. These sequence of image features are input to an LSTM layer followed by dense layers of 1024 neurons and finally 5 with softmax activation for the multi-class classification problem.
+    Figure 1. Schematic layout of the hybrid CNN-RNN model ViPTT-Net. Given a 3D CT scan of arbitrary size, uniform resizing is performed across all dimensions using SIZ. Features are extracted from all the axial slices of the processed CT scan [1] to output a sequence of image features using a VGG-16 model. These sequence of image features are input to an LSTM layer followed by dense layers of 1024 neurons and finally 5 with softmax activation for the multi-class classification problem.
     </em>
 </p>
 
-** As the VGG-16 feature extractor accepts inputs of 3-channels, we map the 1- channel axial slices of the CT scan slices to 3-channel using a convolutional layer with 3 filters and kernel size of 1 × 1 × 1 before input to the feature extractor.
+[1] As the VGG-16 feature extractor accepts inputs of 3-channels, we map the 1- channel axial slices of the CT scan slices to 3-channel using a convolutional layer with 3 filters and kernel size of 1 × 1 × 1 before input to the feature extractor.
 
 ## Resources
 

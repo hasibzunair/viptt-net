@@ -1,4 +1,4 @@
-# ViPTT-Net: Video pretraining of spatio-temporal model for tuberculosis type classification
+# ViPTT-Net: Video pretraining of spatio-temporal model for tuberculosis type classification from chest CT scans
 
 ViPTT-Net is a method that pretrains a hybrid CNN-RNN based model on realistic videos for human activity recognition task. It is then fine-tuned on a dataset of chest CT scans for the task of tuberculosis type classification.
 

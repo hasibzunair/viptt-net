@@ -23,7 +23,10 @@ If you use this code or models in your scientific work, please cite the
 following paper:
 
 ```bibtex
-Add ref here
+H. Zunair, A. Rahman, N. Mohammed, ViPTT-Net: Video pretraining of spatio-temporal
+model for tuberculosis type classification from chest CT scans, in: CLEF2021 Working
+Notes, CEUR Workshop Proceedings, CEUR-WS.org <http://ceur-ws.org>, Bucharest,
+Romania, 2021.
 ```
 
 ## Installation

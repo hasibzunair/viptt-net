@@ -13,7 +13,7 @@ ViPTT-Net achieved 2nd place (Kappa score of 0.2)  in the ImageCLEF 2021 Tubercu
 
 ## Resources
 
-* Paper ([arXiv](https://arxiv.org/abs/2105.12810))
+* Paper ([Published](http://ceur-ws.org/Vol-2936/paper-121.pdf), [arXiv](https://arxiv.org/abs/2105.12810))
 * Task details are [here](https://www.imageclef.org/2021/medical/tuberculosis)
 * [Leaderboard results](https://www.aicrowd.com/challenges/imageclef-2021-tuberculosis-tbt-classification/leaderboards)
 

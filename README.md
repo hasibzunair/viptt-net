@@ -59,6 +59,6 @@ We provide pretrained models:
 ## Results
 See paper for details!
 
-## License 
+## License
 MIT
 

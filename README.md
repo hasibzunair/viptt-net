@@ -22,14 +22,11 @@ ViPTT-Net achieved 2nd place (Kappa score of 0.2)  in the ImageCLEF 2021 Tubercu
 If you use this code or models in your scientific work, please cite the
 following paper:
 
-```bibtex
-@inproceedings{kozlovski2021overview,
-  title={{ViPTT-Net}: Video pretraining of spatio-temporal
-model for tuberculosis type classification from chest {CT} scans},
-  author={Zunair, Hasib and Rahman, Aimon and Mohammed, Nabeel},
-  booktitle={CLEF2021 Working Notes, CEUR Workshop Proceedings, CEUR-WS. org< http://ceur-ws. org>, Bucharest, Romania},
-  year={2021}
-}
+```
+H. Zunair, A. Rahman, N. Mohammed, ViPTT-Net: Video pretraining of spatio-temporal
+model for tuberculosis type classification from chest CT scans, in: CLEF2021 Working
+Notes, CEUR Workshop Proceedings, CEUR-WS.org <http://ceur-ws.org>, Bucharest,
+Romania, 2021.
 ```
 
 ## Installation
